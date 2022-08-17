@@ -1,6 +1,8 @@
 body{
     font-family: 'Times New Roman', Times, serif;
     width: 100vw;
+    background-image: url(../imagenes/imagenes/Fondo3.jpg);
+    background-size: cover;
 }
 /*aca arranca header index mobile*/
 .bodyIndex{
