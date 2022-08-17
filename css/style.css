@@ -1,0 +1,530 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    width: 100vw;
+}
+/*aca arranca header index mobile*/
+.bodyIndex{
+    display: grid;
+    grid-template-columns: 100vw;
+    grid-template-rows: 100vh auto 1fr;
+    grid-template-areas: 
+    "headerI"
+    "mainI"
+    "footerI";
+}
+.headerIndex{
+    background-image: url(../imagenes/imagenes/IndexPrincipal.jpg);
+    background-size: cover;
+    grid-area: headerI;
+    display: grid;
+    grid-template-columns:repeat(2, 50vw) ;
+    grid-template-rows: 20vh 60vh 20vh;
+    grid-template-areas:
+    "logo nav"
+    "mainH mainH";
+}
+.headerIndexImg{
+    grid-area: logo;
+}
+.headerLogo{
+    width: 9rem;
+}
+.headerIndexNav{
+    grid-area: nav;
+}
+.headerIndexNav div{
+    display: flex;
+    justify-content: flex-end;
+    margin: 2rem;
+}
+.headerList{
+    display: none;
+}
+.headerIndexMain{
+    grid-area: mainH;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.headerIndexMain div h2{
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 3rem;
+    color: #ffffff;
+    font-weight: 800;
+}
+.headerIndexMain div a{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+.headerIndexMain div a button{
+    width: 10rem;
+    height: 3rem;
+    background-color: #3251da;
+    border: none;
+    border-radius: 8%;
+    font-size: 1.2rem;
+    font-weight: 750;
+    color:#ffffff; 
+    cursor: pointer;
+}
+/*Termina header index mobile*/
+
+.mainIndex{
+    grid-area: mainI;
+    margin-bottom: 4rem;
+}
+.tituloIndex{
+    text-align: center;
+    margin: 3rem;
+    font-size: 2.5rem;
+    color: #214273;
+    font-weight: 900;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.imagenIndex{
+    width: 300px;
+    height: 200px;
+    border-radius: 10%;
+}
+.container div{
+    margin: 1.5rem;
+}
+.container div a{
+    text-decoration: none;
+}
+.container div a h3{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    padding: 1rem;
+    color: #ffffff;
+    background-color: #214273;
+    border-radius: 5%;
+}
+/*Termina main index mobile*/
+.footerIndex{
+    grid-area: footerI;
+    padding:2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-image: url(../imagenes/imagenes/header1.jpg);
+    background-size: cover;
+}
+.footerIndex div{
+    display: flex;
+    justify-content: center;
+}
+.footerIndex div a{
+    width: 3.3rem;
+    height: 3.3rem;
+    margin: 1rem;
+}
+.footerIndex h3{
+    font-size: 1.2rem;
+    font-weight: 900;
+    color: #214273;
+}
+/*Termina footer index mobile*/
+
+/*Aca arranca header alquiler venta proyectos sobrenosotros contacto mobile*/
+.bodyAlq{
+    display: grid;
+    grid-template-columns: 100vw;
+    grid-template-rows: 20vh auto 1fr;
+    grid-template-areas: 
+    "navA"
+    "mainA"
+    "footerA";
+}
+.headerAlq{
+    grid-area: navA;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    background-image: linear-gradient(rgb(29, 77, 167), rgb(20, 5, 54));
+}
+.headerAlq div img{
+    width: 9rem;
+}
+.headerAlq nav div{
+    margin: 1.5rem;
+}
+.headerAlq nav ul{
+    display: none;
+}
+/*Termina header alquiler venta proyectos sobrenosotros contacto mobile*/
+
+.mainAlq{
+    grid-area: mainA;
+    margin: 1rem;
+}
+.mainAlq h2{
+    text-align: center;
+    margin: 2.5rem;
+    font-size: 2.5rem;
+    color: #214273;
+    font-weight: 900;
+}
+.containerAlq{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+.containerAlq div{
+    margin: 1.3rem;
+}
+.containerAlq div img{
+    width: 300px;
+    height: 200px;
+    border-radius: 10%;
+}
+.containerAlq div div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+.containerAlq div div h3, .containerAlq div div h4 {
+    padding:.2rem;
+    color: #0b2449;
+    font-weight: bolder;
+}
+/*Termina main alquiler venta mobile*/
+
+.footerAlq{
+    grid-area: footerA;
+    padding:2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-image: url(../imagenes/imagenes/header1.jpg);
+    background-size: cover;
+}
+.footerAlq div{
+    display: flex;
+    justify-content: center;
+}
+.footerAlq div a{
+    width: 3.3rem;
+    margin: 1rem;
+}
+.footerAlq h3{
+    font-size: 1.2rem;
+    font-weight: 900;
+    color: #214273;
+}
+/*Termina footer alquiler venta proyectos sobrenosotros contacto mobile*/
+/*Aca arranca main proyectos mobile*/
+.mainAlqSect{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.videoP{
+    width: 85vw;
+    border-radius: 4%;
+    margin: 2rem;
+    border: none;
+    cursor: pointer;
+}
+.videoPCont div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.videoPCont div h3{
+    font-size: 1.6rem;
+    color: #214273;
+    font-weight: 900;
+    margin: 3rem 1rem 1.5rem 1rem  ;
+}
+.videoPCont div h4{
+    font-size: 1.1rem;
+    color: #214273;
+    font-weight: 900;
+    margin: 0rem 2rem;
+}
+/*Aca termina main proyectos mobile*/
+/*Aca arranca main sobrenosotros mobile*/
+.origenes{
+    margin: .5rem
+}
+.origenes h2{
+    margin: 4rem 1rem 2rem 1rem;
+}
+.origenes p{
+    text-align: center;
+    color: #0b2449;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.clientesFlex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+.clientesFlex div{
+    width: 20rem;
+    margin: 1rem;
+}
+.clientesFlex div h3{
+    font-size: 1.3rem;
+    color: #0b2449;
+    font-weight: 900;
+    margin: .5rem;
+}
+/*Aca termina main sobrenosotros mobile*/
+/*Aca arranca main contacto mobile*/
+#mainCont{
+    display: grid;
+    grid-template-columns: 100vw;
+    grid-template-rows: auto auto auto 40vh;
+    grid-template-areas: 
+    "tituloC"
+    "formC"
+    "infoC"
+    "mapaC";
+}
+.tituloCont{
+    grid-area: tituloC;
+}
+.formularioCont{
+    grid-area: formC;
+    margin: 1.5rem 2rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    text-align: center;
+    justify-content: center;
+    color: #0b2449;
+    font-weight: 900;
+}
+.formularioCont fieldset{
+    border: none;
+}
+.formularioCont fieldset legend{
+    font-weight: 900;
+    font-size: 1.3rem;
+}
+.divForm{
+    margin: 1rem;
+}
+.divForm textarea{
+    width: 80%;
+    height: 8rem;
+    border-radius: 4%;
+    text-align: center;
+    color: #0b2449;
+}
+.inputF{
+    margin: .5rem;
+    width: 55%;
+    height: 1.2rem;
+    border-radius: 4%;
+    text-align: center;
+    color: #0b2449
+}
+.inputB{
+    padding: .5rem;
+    margin: .5rem;
+    width: 7rem;
+    color: #ffffff;
+    background-color: #214273;
+    border-radius: 5%;
+    
+}
+.contactoDatos{
+    grid-area: infoC;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+    margin: 2rem 2rem 0 2rem;
+    color: #0b2449;
+}
+.contactoDatos div{
+    width: 10rem;
+    margin: 1rem;
+}
+.divFormCheck{
+    margin: 1rem;
+}
+
+.mapaContacto{
+    grid-area: mapaC;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 4rem 0;
+}
+.mapaContacto iframe{
+    width: 80%;
+    height: auto; 
+}
+
+/*Aca arrancan las media queries para deskpot(1200px)*/
+@media screen and (min-width:1200px){
+    .headerIndexNav div{
+        display: none;  
+    }
+    .headerLogo{
+        width: 15rem;
+    }
+    .headerList li{
+        display: block;
+    }
+    .headerList li:hover{
+        transform: translateY(-20px);
+    }
+    .headerList li a:hover{
+        color: rgb(92, 133, 245);
+    }
+    .headerIndexNav div{
+        display: none;
+    }
+    .headerList{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin: 4rem 2rem;
+    }
+    .headerList li a{
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 1.4rem;
+        font-weight: 900;
+    }
+    .headerIndexMain div h2{
+        font-size: 4rem;
+    }
+    .headerIndexMain div a button{
+        width: 12rem;
+        height: 3rem;
+    }
+    .tituloIndex{
+        font-size: 4rem;
+        margin: 5rem;
+    }
+    .container div a h3{
+        margin-top: 1.8rem;
+    }
+    .footerIndex, .footerAlq{
+        flex-direction: row-reverse;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .footerIndex div, .footerAlq div{
+        display: flex;
+        justify-content: center;
+    }
+    .footerIndex h3, .footerAlq h3{
+        font-size: 1.6rem;
+    }
+    .imagenIndex:hover{
+        transform: scale(1.2, 1.2);
+    }
+    .boton:hover{
+        transform: scale(1.2,1.2);
+        color: rgb(201, 221, 238);
+    }
+    .container div a h3:hover{
+        color: rgb(92, 133, 245);
+    }
+    /*Aca termina media queries para index*/
+    .headerAlq div img{
+        width: 13rem;
+    }
+    .headerAlq nav div{
+        display: none;
+    }
+    .headerAlq nav ul{
+        display: flex;
+        margin: 4rem 2rem;
+        list-style-type: none;
+    }
+    .headerAlq li a{
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 1.5rem;
+        font-weight: 900;
+        margin: 2rem;
+    }
+    .headerAlq li a:hover{
+        color: rgb(92, 133, 245);
+    }
+    .headerAlq li:hover{
+        transform: translateY(-20px);
+    }
+    .mainAlq h2{
+        font-size: 4rem;
+        margin: 5rem;
+    }
+    .containerAlq div{
+    margin: 1.3rem;
+    }
+    .containerAlq div img:hover{
+        transform: scale(1.2, 1.2);
+    }
+    /*Aca arranca proyectos*/
+    .videoP{
+    width: 60vw;
+    }
+    .videoPCont div h3{
+        font-size: 2.5rem;
+        color: #0b2449;
+        margin: 4rem 3rem 2rem 3rem ;
+    }
+    .videoPCont div h4{
+        font-size: 1.3rem;
+        color: #0b2449;
+        margin: 2rem 3rem;
+        width: 60vw;
+    }
+    /*Aca arranca sobrenosotros*/
+    .origenes{
+        width: 70vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .origenes p{
+        font-size: 1.2rem;
+        color: #0b2449;
+    }
+    .origenes h2{
+        margin: 4rem 1rem 3rem 1rem;
+        font-size: 3.5rem;
+    }
+    /*Aca arranca contacto*/
+    .divForm textarea{
+        width: 60%;
+    }
+    .inputF{
+        width: 30%;
+    }
+    .mapaContacto iframe{
+        width: 50%;
+        height: auto; 
+    }
+    .contactoDatos{
+        justify-content: center; 
+    }
+    .contactoDatos div{
+        margin: 4rem;
+    }
+    }
