@@ -294,7 +294,7 @@ body{
 /*Aca arranca main contacto mobile*/
 #mainCont{
     display: grid;
-    grid-template-columns: 100vw;
+    grid-template-columns: 90vw;
     grid-template-rows: auto auto auto 40vh;
     grid-template-areas: 
     "tituloC"
@@ -307,7 +307,7 @@ body{
 }
 .formularioCont{
     grid-area: formC;
-    margin: 1.5rem 2rem;
+    margin: 0rem 2rem;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
