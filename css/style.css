@@ -188,6 +188,7 @@ body{
     width: 300px;
     height: 200px;
     border-radius: 10%;
+    cursor: pointer;
 }
 .containerAlq div div{
     display: flex;
@@ -390,7 +391,7 @@ body{
         display: block;
     }
     .headerList li:hover{
-        transform: translateY(-20px);
+        transform: translateY(-10px);
     }
     .headerList li a:hover{
         color: rgb(92, 133, 245);
@@ -469,7 +470,7 @@ body{
         color: rgb(92, 133, 245);
     }
     .headerAlq li:hover{
-        transform: translateY(-20px);
+        transform: translateY(-10px);
     }
     .mainAlq h2{
         font-size: 4rem;
