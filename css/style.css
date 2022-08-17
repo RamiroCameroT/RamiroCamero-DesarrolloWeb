@@ -140,7 +140,7 @@ body{
 .bodyAlq{
     display: grid;
     grid-template-columns: 100vw;
-    grid-template-rows: 20vh auto 1fr;
+    grid-template-rows: auto auto 1fr;
     grid-template-areas: 
     "navA"
     "mainA"
