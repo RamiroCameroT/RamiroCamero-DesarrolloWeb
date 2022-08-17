@@ -1,13 +1,10 @@
 body{
     font-family: 'Times New Roman', Times, serif;
-    width: 100vw;
-    background-image: url(../imagenes/imagenes/Fondo3.jpg);
-    background-size: cover;
 }
 /*aca arranca header index mobile*/
 .bodyIndex{
     display: grid;
-    grid-template-columns: 100vw;
+    grid-template-columns: 1fr;
     grid-template-rows: 100vh auto 1fr;
     grid-template-areas: 
     "headerI"
@@ -19,7 +16,7 @@ body{
     background-size: cover;
     grid-area: headerI;
     display: grid;
-    grid-template-columns:repeat(2, 50vw) ;
+    grid-template-columns:repeat(2, 1fr) ;
     grid-template-rows: 20vh 60vh 20vh;
     grid-template-areas:
     "logo nav"
@@ -141,7 +138,7 @@ body{
 /*Aca arranca header alquiler venta proyectos sobrenosotros contacto mobile*/
 .bodyAlq{
     display: grid;
-    grid-template-columns: 100vw;
+    grid-template-columns: 1fr;
     grid-template-rows: auto auto 1fr;
     grid-template-areas: 
     "navA"
@@ -168,7 +165,6 @@ body{
 
 .mainAlq{
     grid-area: mainA;
-    margin: 1rem;
 }
 .mainAlq h2{
     text-align: center;
@@ -296,7 +292,7 @@ body{
 /*Aca arranca main contacto mobile*/
 #mainCont{
     display: grid;
-    grid-template-columns: 90vw;
+    grid-template-columns: 1fr;
     grid-template-rows: auto auto auto 40vh;
     grid-template-areas: 
     "tituloC"
@@ -309,7 +305,6 @@ body{
 }
 .formularioCont{
     grid-area: formC;
-    margin: 0rem 2rem;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -323,7 +318,7 @@ body{
 }
 .formularioCont fieldset legend{
     font-weight: 900;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 .divForm{
     margin: 1rem;
@@ -366,7 +361,7 @@ body{
     margin: 1rem;
 }
 .divFormCheck{
-    margin: 1rem;
+    margin: .8rem;
 }
 
 .mapaContacto{
