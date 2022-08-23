@@ -28,6 +28,15 @@ body{
 .headerLogo{
     width: 9rem;
 }
+.headerLogo:hover{
+    transform: scale(1.2,1.2);
+    animation-name: Logo;
+    animation-duration: 5s;
+}
+@keyframes Logo {
+    from{ transform: rotate(-20deg);}
+    to{transform: rotate(-360deg);}
+} 
 .headerIndexNav{
     grid-area: nav;
 }
@@ -388,10 +397,16 @@ body{
         display: block;
     }
     .headerList li:hover{
-        transform: translateY(-10px);
+        animation-name: nav;
+        animation-duration: 1s;
+        
+    }
+    @keyframes nav {
+        from{ transform: translateY(0px);}
+        to{ transform: translateY(-8px)}
     }
     .headerList li a:hover{
-        color: rgb(92, 133, 245);
+        color: #7288ea;
     }
     .headerIndexNav div{
         display: none;
@@ -438,11 +453,12 @@ body{
         transform: scale(1.2, 1.2);
     }
     .boton:hover{
-        transform: scale(1.2,1.2);
-        color: rgb(201, 221, 238);
+        transform: scale(1.2,1.3);
+        color: rgb(121, 163, 197);
+        background-color: #3b35e0;
     }
     .container div a h3:hover{
-        color: rgb(92, 133, 245);
+        color: rgb(155, 165, 190);
     }
     /*Aca termina media queries para index*/
     .headerAlq div img{
