@@ -4,66 +4,60 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
         <link rel="stylesheet" href="./css/reset.css">
         <link rel="stylesheet" href="./css/style.css">
         <link rel="icon" href="./imagenes/luxury.png">
         <title>Luxury Inmobiliaria - Inicio</title>
     </head>
-    <body class="bodyIndex">
-        <header class="headerIndex">
-            <div class="headerIndexImg">
-                <img class="headerLogo" src="./imagenes/luxury.png" alt="Logo">
-            </div>
-            <nav class="headerIndexNav">
-                <div>
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-menu-2" width="80" height="80" viewBox="0 0 24 24" stroke-width="2" stroke="#D7D8DA" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                        <line x1="4" y1="6" x2="20" y2="6" />
-                        <line x1="4" y1="12" x2="20" y2="12" />
-                        <line x1="4" y1="18" x2="20" y2="18" />
-                      </svg>
+    <body >
+        <header class="container-fluid headerIndex">
+            <nav class="navbar navbar-expand-lg bg-none">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">
+                    <img class="logoIndex" src="./imagenes/luxury.png" alt="">
+                  </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav text-center indexNav1">
+                      <li class="nav-item ">
+                        <a class="nav-link active m-2 " aria-current="page" href="/html/alquiler.html">Alquiler</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active m-2 " aria-current="page" href="/html/venta.html">Venta</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active m-2 " aria-current="page" href="/html/proyectos.html">Proyectos</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active m-2 " aria-current="page" href="/html/sobre nosotros.html">Sobre Nosotros</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active m-2 " aria-current="page" href="/html/contacto.html">Contacto</a>
+                      </li>
+                  </div>
                 </div>
-                <ul class="headerList">
-                    <li>
-                        <a href="./html/alquiler.html">Alquiler</a>
-                    </li>
-                    <li>
-                        <a href="./html/venta.html">Venta</a>
-                    </li>
-                    <li>
-                        <a href="./html/proyectos.html">Proyectos</a>
-                    </li>
-                    <li>
-                        <a href="./html/sobre nosotros.html">Sobre Nosotros</a>
-                    </li>
-                    <li>
-                        <a href="./html/contacto.html">Contacto</a>
-                    </li>
-                </ul>
             </nav>
-            <div class="headerIndexMain">
-                <div>
-                    <h2 class="headerTexto">Luxurffffbiliaria</h2>
-                    <a href="./html/sobre nosotros.html">
-                        <button class="boton">Conocenos</button>
-                    </a>
-                </div>
-            </div>
+
         </header>
-    
-        <main class="mainIndex">
-            <h2 class="tituloIndex">Servicios</h2>
-            <section class="container">        
+        <main class="container-fluid">
+            <section>
+                <h2 class="tituloIndex ">Servicios</h2>
+            </section>
+            <section class="container-fluid d-flex justify-content-evenly flex-wrap indexMain">        
                 <div>
                     <a href="./html/alquiler.html">
-                        <img class="imagenIndex" src="./imagenes/imagenes/for rent.jpeg" alt="Alquileres">
-                        <h3>Alquiler</h3>
+                        <img class="imagenIndex" src="./imagenes/imagenes/for rent.jpeg" alt="Ventas">
+                        <h3 >Alquiler</h3>
                     </a>
                 </div>
                 <div>
                     <a href="./html/venta.html">
                         <img class="imagenIndex" src="./imagenes/imagenes/for sale.jpeg" alt="Ventas">
-                        <h3>Venta</h3>
+                        <h3 class="">Venta</h3>
                     </a>
                 </div>
                 <div>
@@ -72,10 +66,8 @@
                         <h3>Proyectos</h3>
                     </a> 
                 </div>
-            </section>
         </main>
-
-        <footer class="footerIndex">
+        <footer class="container-fluid footerIndex">
             <div>       
                 <a href="#"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook"  viewBox="0 0 24 24" stroke-width="1.5" stroke="#214273" fill="none" stroke-linecap="round" stroke-linejoin="round">
                     <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
@@ -102,5 +94,7 @@
             </div>
             <h3>Copyright - 2022 Luxury Inmobiliaria</h3>
         </footer>
+        <!-- JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
     </body>
 </html>
