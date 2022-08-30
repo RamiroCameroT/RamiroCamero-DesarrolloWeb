@@ -15,3 +15,16 @@
 .sobreNosFlex div{
     width: 20rem;
 }
+.headerLogo{
+    width: 6rem;
+}
+@media screen and (min-width:1200px){
+    .headerLogo{
+        width: 10rem;
+    }
+}
+.footerIndex{
+    margin-top: 8rem;
+    padding: 1rem;
+    background-image: linear-gradient(rgb(134, 168, 232), rgb(102, 73, 209));
+}
