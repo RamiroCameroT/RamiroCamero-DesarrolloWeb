@@ -4,120 +4,113 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+        <script src="https://kit.fontawesome.com/2c7ef9c20a.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="../css/reset.css">
         <link rel="stylesheet" href="../css/style.css">
         <link rel="icon" href="../imagenes/luxury.png">
         <title>Luxury Inmobiliaria - Venta</title>
     </head>
-    <body class="bodyAlq">
-        <header class="headerAlq">
-            <div>   
-                <a href="../index.html"><img src="../imagenes/luxury.png" alt="Logo"></a>
-            </div> 
-            <nav>
-                <div>
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-menu-2" width="80" height="80" viewBox="0 0 24 24" stroke-width="2" stroke="#D7D8DA" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                        <line x1="4" y1="6" x2="20" y2="6" />
-                        <line x1="4" y1="12" x2="20" y2="12" />
-                        <line x1="4" y1="18" x2="20" y2="18" />
-                      </svg>
+    <body >
+        <header class="container-fluid headerIndex">
+            <nav class="navbar navbar-expand-lg ">
+                <div class="container-fluid">
+                  <a class="navbar-brand h-25 w-25" href="#">
+                    <img class="h-25 w-75" src="../imagenes/luxury.png" alt="">
+                  </a>
+                  <button class="navbar-toggler text-black btn-outline-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon "></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto align-items-center ">
+                      <li class="nav-item ">
+                        <a class="nav-link active text-white m-2" aria-current="page" href="../index.html">Inicio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active text-white m-2" aria-current="page" href="../html/alquiler.html">Alquiler</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active text-white m-2" aria-current="page" href="../html/proyectos.html">Proyectos</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active text-white m-2" aria-current="page" href="../html/sobre nosotros.html">Sobre Nosotros</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active text-white m-2" aria-current="page" href="../html/contacto.html">Contacto</a>
+                      </li>
+                  </div>
                 </div>
-                <ul class="listaContAlq">
-                    <li>
-                        <a href="../index.html">Inicio</a>
-                    </li>
-                    <li>
-                        <a href="./alquiler.html">Alquiler</a>
-                    </li>
-                    <li>
-                        <a href="./proyectos.html">Proyectos</a>
-                    </li>
-                    <li>
-                        <a href="./sobre nosotros.html">Sobre Nosotros</a>
-                    </li>
-                    <li>
-                        <a href="./contacto.html">Contacto</a>
-                    </li>
-                </ul>
-            </nav>
+              </nav>
         </header>
         
         
-        <main class="mainAlq">
-            <h2>Propiedades en Venta</h2>
-            <section class="containerAlq">
-                <div>
-                    <a href="../html/contacto.html"><img src="../imagenes/imagenes/Venta1.jpeg" alt="San Pablo, Brasil"></a>
-                    <div>
-                        <h3>San Pablo, Brasil</h3>
-                        <h4>450.000 usd</h4>
+        <main class="container-fluid mb-5">
+            <section class="row">
+                <h2 class="text-center my-5 h1">Propiedades en Venta</h2>
+            </section>
+            <section class="d-flex justify-content-evenly flex-wrap">
+                <div class="card card text-center m-4" style="width: 18rem;">
+                    <img src="../imagenes/imagenes/Venta1.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">San Pablo, Brasil</h5>
+                      <p class="card-text">450.000 usd</p>
+                      <a href="#" class="btn btn-primary">Venta</a>
                     </div>
                 </div>
-                <div>
-                    <a href="../html/contacto.html"><img src="../imagenes/imagenes/Venta2.jpeg" alt="Bogota, Colombia"></a>
-                    <div>
-                        <h3>Bogota, Colombia</h3>
-                        <h4>320.500 usd</h4>
+                <div class="card card text-center m-4" style="width: 18rem;">
+                    <img src="../imagenes/imagenes/Venta2.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Bogota, Colombia</h5>
+                      <p class="card-text">320.500 usd</p>
+                      <a href="#" class="btn btn-primary">Venta</a>
                     </div>
                 </div>
-                <div>
-                    <a href="../html/contacto.html"><img src="../imagenes/imagenes/Venta3.jpeg" alt="Lima, Peru"></a>
-                    <div>
-                        <h3>Lima, Peru</h3>
-                        <h4>346.900 usd</h4>
+                <div class="card card text-center m-4" style="width: 18rem;">
+                    <img src="../imagenes/imagenes/Venta3.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Lima, Peru</h5>
+                      <p class="card-text">346.900 usd</p>
+                      <a href="#" class="btn btn-primary">Venta</a>
                     </div>
                 </div>
-                <div>
-                    <a href="../html/contacto.html"><img src="../imagenes/imagenes/Venta4.jpeg" alt="Santiago de Chile, Chile"></a>
-                    <div>
-                        <h3>Santiago de Chile, Chile</h3>
-                        <h4> 500.000 usd</h4>
+                <div class="card card text-center m-4" style="width: 18rem;">
+                    <img src="../imagenes/imagenes/Venta4.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Santiago de Chile, Chile</h5>
+                      <p class="card-text">500.000 usd</p>
+                      <a href="#" class="btn btn-primary">Venta</a>
                     </div>
                 </div>
-                <div>
-                    <a href="../html/contacto.html"><img src="../imagenes/imagenes/Venta5.jpeg" alt="Buenos Aires, Argentina"></a>
-                    <div>
-                        <h3>Buenos Aires, Argentina</h3>
-                        <h4>328.000 usd</h4>
+                <div class="card card text-center m-4" style="width: 18rem;">
+                    <img src="../imagenes/imagenes/Venta5.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Buenos Aires, Argentina</h5>
+                      <p class="card-text">320.000 usd</p>
+                      <a href="#" class="btn btn-primary">Venta</a>
                     </div>
                 </div>
-                <div>
-                    <a href="../html/contacto.html"><img src="../imagenes/imagenes/Venta6.jpeg" alt="Montevideo, Uruguay"></a>
-                    <div>
-                        <h3>Montevideo, Uruguay</h3>
-                        <h4>482.780 usd</h4>
+                <div class="card card text-center m-4" style="width: 18rem;">
+                    <img src="../imagenes/imagenes/Venta6.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Montevideo, Uruguay</h5>
+                      <p class="card-text">482.780 usd</p>
+                      <a href="#" class="btn btn-primary">Venta</a>
                     </div>
                 </div>   
             </section> 
         </main>
-
-        <footer class="footerAlq">
-            <div>       
-                <a href="#"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook" viewBox="0 0 24 24" stroke-width="1.5" stroke="#214273" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                    <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
-                </svg></a>
-                <a href="#"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" viewBox="0 0 24 24" stroke-width="1.5" stroke="#214273" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                    <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
-                </svg></a>
-                <a href="#"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" viewBox="0 0 24 24" stroke-width="1.5" stroke="#214273" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                    <rect x="4" y="4" width="16" height="16" rx="4" />
-                    <circle cx="12" cy="12" r="3" />
-                    <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
-                </svg></a>
-                <a href="#"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-linkedin" viewBox="0 0 24 24" stroke-width="1.5" stroke="#214273" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                    <rect x="4" y="4" width="16" height="16" rx="2" />
-                    <line x1="8" y1="11" x2="8" y2="16" />
-                    <line x1="8" y1="8" x2="8" y2="8.01" />
-                    <line x1="12" y1="16" x2="12" y2="11" />
-                    <path d="M16 16v-3a2 2 0 0 0 -4 0" />
-                </svg></a>
-            </div>
-            <h3>Copyright - 2022 Luxury Inmobiliaria</h3>
+        
+        <footer class="container-fluid footerIndex mt-5">
+          <div class="text-center">       
+              <a href=""><i class="fa-brands fa-square-instagram m-2 h1 text-black"></i></i></a>
+              <a href=""><i class="fa-brands fa-facebook m-2 h1 text-black"></i></a>
+              <a href=""><i class="fa-brands fa-linkedin m-2 h1 text-black"></i></a>
+              <a href=""><i class="fa-brands fa-twitter h1 text-black"></i></a>
+          </div>
+          <h3 class="h6 text-center text-black">Copyright - 2022 Luxury Inmobiliaria</h3>
         </footer>
+        <!-- JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
     </body>
 </html>

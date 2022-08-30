@@ -6,93 +6,77 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!-- CSS only -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+        <script src="https://kit.fontawesome.com/2c7ef9c20a.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="./css/reset.css">
         <link rel="stylesheet" href="./css/style.css">
-        <link rel="icon" href="./imagenes/luxury.png">
+        <link rel="icon" href="/imagenes/luxury.png">
         <title>Luxury Inmobiliaria - Inicio</title>
     </head>
-    <body >
+    <body>
         <header class="container-fluid headerIndex">
-            <nav class="navbar navbar-expand-lg bg-none">
+            <nav class="navbar navbar-expand-lg ">
                 <div class="container-fluid">
-                  <a class="navbar-brand" href="#">
-                    <img class="logoIndex" src="./imagenes/luxury.png" alt="">
+                  <a class="navbar-brand h-25 w-25" href="#">
+                    <img class="h-25 w-75" src="./imagenes/luxury.png" alt="">
                   </a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                  <button class="navbar-toggler text-black btn-outline-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon "></span>
                   </button>
-                  <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-                    <ul class="navbar-nav text-center indexNav1">
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto align-items-center ">
                       <li class="nav-item ">
-                        <a class="nav-link active m-2 " aria-current="page" href="/html/alquiler.html">Alquiler</a>
+                        <a class="nav-link active text-white m-2" aria-current="page" href="/html/alquiler.html">Alquiler</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link active m-2 " aria-current="page" href="/html/venta.html">Venta</a>
+                        <a class="nav-link active text-white m-2" aria-current="page" href="/html/venta.html">Venta</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link active m-2 " aria-current="page" href="/html/proyectos.html">Proyectos</a>
+                        <a class="nav-link active text-white m-2" aria-current="page" href="/html/proyectos.html">Proyectos</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link active m-2 " aria-current="page" href="/html/sobre nosotros.html">Sobre Nosotros</a>
+                        <a class="nav-link active text-white m-2" aria-current="page" href="/html/sobre nosotros.html">Sobre Nosotros</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link active m-2 " aria-current="page" href="/html/contacto.html">Contacto</a>
+                        <a class="nav-link active text-white m-2" aria-current="page" href="/html/contacto.html">Contacto</a>
                       </li>
                   </div>
                 </div>
-            </nav>
-
+              </nav>
         </header>
-        <main class="container-fluid">
-            <section>
-                <h2 class="tituloIndex ">Servicios</h2>
+
+        <main class="container-fluid mb-5">
+            <section class="row">
+                <h2 class="text-center my-5 h1">Servicios</h2>
             </section>
-            <section class="container-fluid d-flex justify-content-evenly flex-wrap indexMain">        
-                <div>
-                    <a href="./html/alquiler.html">
-                        <img class="imagenIndex" src="./imagenes/imagenes/for rent.jpeg" alt="Ventas">
-                        <h3 >Alquiler</h3>
+            <section class="container-fluid d-flex justify-content-between align-content-center flex-wrap">
+                <div class="mx-auto my-4">
+                    <a class="text-decoration-none" href="./html/alquiler.html">
+                        <img class="imagenIndex rounded" src="./imagenes/imagenes/for rent.jpeg" alt="Ventas">
+                        <h3 class="text-center mt-3 text-bg-dark p-3 rounded">Alquiler</h3>
                     </a>
                 </div>
-                <div>
-                    <a href="./html/venta.html">
-                        <img class="imagenIndex" src="./imagenes/imagenes/for sale.jpeg" alt="Ventas">
-                        <h3 class="">Venta</h3>
+                <div class="mx-auto my-4">
+                    <a class="text-decoration-none" href="./html/venta.html">
+                        <img class="imagenIndex rounded" src="./imagenes/imagenes/for sale.jpeg" alt="Ventas">
+                        <h3 class="text-center mt-3 text-bg-dark p-3 rounded">Venta</h3>
                     </a>
                 </div>
-                <div>
-                    <a href="./html/proyectos.html">   
-                        <img class="imagenIndex" src="./imagenes/imagenes/Proyectos.jpg" alt="Proyectos">
-                        <h3>Proyectos</h3>
+                <div class="mx-auto my-4">
+                    <a class="text-decoration-none" href="./html/proyectos.html">   
+                        <img class="imagenIndex rounded" src="./imagenes/imagenes/Proyectos.jpg" alt="Proyectos">
+                        <h3 class="text-center mt-3 text-bg-dark p-3 rounded">Proyectos</h3>
                     </a> 
                 </div>
+            </section>         
         </main>
-        <footer class="container-fluid footerIndex">
-            <div>       
-                <a href="#"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook"  viewBox="0 0 24 24" stroke-width="1.5" stroke="#214273" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                    <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
-                </svg></a>
-                <a href="#"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter"  viewBox="0 0 24 24" stroke-width="1.5" stroke="#214273" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                    <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
-                </svg></a>
-                <a href="#"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram"  viewBox="0 0 24 24" stroke-width="1.5" stroke="#214273" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                    <rect x="4" y="4" width="16" height="16" rx="4" />
-                    <circle cx="12" cy="12" r="3" />
-                    <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
-                </svg></a>
-                <a href="#"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-linkedin"  viewBox="0 0 24 24" stroke-width="1.5" stroke="#214273" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                    <rect x="4" y="4" width="16" height="16" rx="2" />
-                    <line x1="8" y1="11" x2="8" y2="16" />
-                    <line x1="8" y1="8" x2="8" y2="8.01" />
-                    <line x1="12" y1="16" x2="12" y2="11" />
-                    <path d="M16 16v-3a2 2 0 0 0 -4 0" />
-                </svg></a>
+        <footer class="container-fluid footerIndex mt-5">
+            <div class="text-center">       
+                <a href=""><i class="fa-brands fa-square-instagram m-2 h1 text-black"></i></i></a>
+                <a href=""><i class="fa-brands fa-facebook m-2 h1 text-black"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin m-2 h1 text-black"></i></a>
+                <a href=""><i class="fa-brands fa-twitter h1 text-black"></i></a>
             </div>
-            <h3>Copyright - 2022 Luxury Inmobiliaria</h3>
+            <h3 class="h6 text-center text-black">Copyright - 2022 Luxury Inmobiliaria</h3>
         </footer>
         <!-- JavaScript Bundle with Popper -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>

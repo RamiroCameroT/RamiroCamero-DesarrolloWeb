@@ -1,68 +1,17 @@
 .headerIndex{
     background-image: url(/imagenes/imagenes/IndexPrincipal.jpg);
     background-size: cover;
-
-}
-.logoIndex{
-    width: 120px;
-    height: auto;
 }
 .imagenIndex{
     width: 300px;
     height: 200px;
-    border-radius: 10%;
 }
-.indexNav1 li a{
-    color: rgb(136, 23, 38);
+.videoP{
+    width: 85vw;
 }
-.tituloIndex{
-    text-align: center;
-    margin: 3rem;
-    font-size: 2.5rem;
-    color: #214273;
-    font-weight: 900;
+.proyectosTexto div div p, .sobreNosMain section p{
+    font-size: 1rem;
 }
-.indexMain div a{
-    text-decoration: none;
-}
-.indexMain div a h3{
-    justify-content: center;
-    text-align: center;
-    font-size: 1.5rem;
-    margin-top: 1rem;
-    padding: 1rem;
-    color: #ffffff;
-    background-color: #214273;
-    border-radius: 5%;
-}
-.indexMain{
-    margin-bottom: 4rem;
-}
-.indexMain div{
-    margin: 2rem;
-}
-
-.footerIndex{
-    grid-area: footerI;
-    padding:2rem 1rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    background-image: url(../imagenes/imagenes/header1.jpg);
-    background-size: cover;
-}
-.footerIndex div{
-    display: flex;
-    justify-content: center;
-}
-.footerIndex div a{
-    width: 3.3rem;
-    height: 3.3rem;
-    margin: 1rem;
-}
-.footerIndex h3{
-    font-size: 1.2rem;
-    font-weight: 900;
-    color: #214273;
+.sobreNosFlex div{
+    width: 20rem;
 }
