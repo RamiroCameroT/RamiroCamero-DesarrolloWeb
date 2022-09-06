@@ -68,6 +68,10 @@ header nav div a img:hover {
   width: 320px;
   height: 210px;
 }
+.mainIndex section div a h3 {
+  background-color: #214273;
+  color: rgb(215, 227, 233);
+}
 
 footer {
   margin-top: 8rem;
@@ -94,20 +98,21 @@ footer {
 }
 .mainProyectos section div div p {
   color: #214273;
-  width: 70%;
+  width: 80%;
   margin: 3rem auto;
 }
 
 .mainSobreNos section h2 {
   color: #214273;
-  margin: 5rem 2rem;
+  margin: 5rem auto;
 }
 .mainSobreNos section p {
   color: #214273;
-  margin: 0.6rem;
+  margin: 0.6rem auto;
 }
 .mainSobreNos section .sobreNosFlex div {
   width: 20rem;
+  margin-top: 1rem;
 }
 .mainSobreNos section .sobreNosFlex div h3 {
   color: #214273;
@@ -119,4 +124,16 @@ footer {
 .mainContacto section h2 {
   color: #214273;
   margin: 5rem auto;
+}
+.mainContacto section div div {
+  width: 75vw;
+}
+.mainContacto .contacto div h3 {
+  color: #214273;
+}
+
+@media screen and (min-width: 1200px) {
+  .mainContacto section div div {
+    width: 50vw;
+  }
 }/*# sourceMappingURL=styles.css.map */

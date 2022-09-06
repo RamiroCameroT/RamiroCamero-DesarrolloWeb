@@ -4,5 +4,32 @@
             color: $colorTitulos;
             margin: 5rem auto;
         }
+        div{
+            div{
+                width: 75vw;
+            }
+        }
     }
+    .contacto{
+        div{
+            h3{
+                color: $colorTitulos; 
+            }
+        }
+    }
+
+}
+
+@media screen and (min-width:1200px){
+    .mainContacto{
+        section{
+            div{
+                div{
+                    width: 50vw;
+                }
+            }
+        }
+    
+    } 
+   
 }
