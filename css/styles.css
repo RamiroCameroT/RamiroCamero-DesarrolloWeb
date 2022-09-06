@@ -57,13 +57,14 @@ header nav div a img:hover {
     width: 10rem;
   }
 }
-main section h2 {
+.mainIndex section h2 {
   color: #214273;
+  margin: 8rem 0 4rem 0;
 }
-main section div:hover {
+.mainIndex section div:hover {
   opacity: 0.8;
 }
-main section div a img {
+.mainIndex section div a img {
   width: 320px;
   height: 210px;
 }
@@ -72,4 +73,50 @@ footer {
   margin-top: 8rem;
   padding: 1rem;
   background-image: linear-gradient(rgb(134, 168, 232), rgb(102, 73, 209));
+}
+
+.mainAlquiler section h2 {
+  color: #214273;
+  margin: 8rem 0 4rem 0;
+}
+.mainAlquiler div:hover {
+  transform: scale(1.2, 1.2);
+  cursor: pointer;
+}
+
+.mainProyectos section h2 {
+  color: #214273;
+  margin: 8rem 0 4rem 0;
+}
+.mainProyectos section div div h3 {
+  color: #214273;
+  margin-top: 3rem;
+}
+.mainProyectos section div div p {
+  color: #214273;
+  width: 70%;
+  margin: 3rem auto;
+}
+
+.mainSobreNos section h2 {
+  color: #214273;
+  margin: 5rem 2rem;
+}
+.mainSobreNos section p {
+  color: #214273;
+  margin: 0.6rem;
+}
+.mainSobreNos section .sobreNosFlex div {
+  width: 20rem;
+}
+.mainSobreNos section .sobreNosFlex div h3 {
+  color: #214273;
+}
+.mainSobreNos section .sobreNosFlex div p {
+  color: #214273;
+}
+
+.mainContacto section h2 {
+  color: #214273;
+  margin: 5rem auto;
 }/*# sourceMappingURL=styles.css.map */

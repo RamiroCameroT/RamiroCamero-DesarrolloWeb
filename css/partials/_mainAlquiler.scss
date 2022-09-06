@@ -1,0 +1,14 @@
+.mainAlquiler{
+    section{
+        h2{
+            color: $colorTitulos;
+            margin: 8rem 0 4rem 0;
+        }
+    }
+    div{
+        &:hover{
+            transform: scale(1.2,1.2);
+            cursor: pointer;
+        }
+    }
+}

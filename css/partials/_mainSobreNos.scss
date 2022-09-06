@@ -1,0 +1,23 @@
+.mainSobreNos{
+    section{
+        h2{
+            color: $colorTitulos;
+            margin: 5rem 2rem;
+        }
+        p{
+            color: $colorTitulos;
+            margin: .6rem;
+        }
+        .sobreNosFlex{
+            div{
+                width: 20rem;
+                h3{
+                    color: $colorTitulos;  
+                }
+                p{
+                    color: $colorTitulos;  
+                }
+            }
+        }
+    }
+}
