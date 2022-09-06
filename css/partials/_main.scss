@@ -1,0 +1,18 @@
+main{
+    section{
+        h2{
+            color:$colorTitulos;
+        }
+        div{
+            &:hover{
+                opacity: 0.8; 
+            }
+            a{
+                img{
+                    width: 320px;
+                    height: 210px;
+                }
+            }
+        } 
+    }
+}

@@ -1,0 +1,44 @@
+header{
+    background-image: url(/imagenes/imagenes/IndexPrincipal.jpg);
+    background-size: cover;
+    nav{
+        div{
+            div{
+                ul{
+                    li{
+                        &:hover{
+                            animation-name: nav;
+                            animation-duration: 1s;
+                            cursor: pointer;
+                        }
+                        @keyframes nav {
+                            from{ transform: translateY(0px);}
+                            to{ transform: translateY(-8px)}
+                        }
+                    }
+                }
+            }
+            a{
+                img{
+                    width: 6rem;
+                    &:hover{
+                        transform: scale(1.2,1.2);
+                        animation-name: Logo;
+                        animation-duration: 5s;
+                    }
+                    @keyframes Logo {
+                        from{ transform: rotate(-20deg);}
+                        to{transform: rotate(-360deg);}
+                    } 
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width:1200px){
+    .headerLogo{
+        width: 10rem;
+    }
+   
+}

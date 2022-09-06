@@ -1,0 +1,75 @@
+header {
+  background-image: url(/imagenes/imagenes/IndexPrincipal.jpg);
+  background-size: cover;
+}
+header nav div div ul li:hover {
+  -webkit-animation-name: nav;
+          animation-name: nav;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  cursor: pointer;
+}
+@-webkit-keyframes nav {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-8px);
+  }
+}
+@keyframes nav {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-8px);
+  }
+}
+header nav div a img {
+  width: 6rem;
+}
+header nav div a img:hover {
+  transform: scale(1.2, 1.2);
+  -webkit-animation-name: Logo;
+          animation-name: Logo;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+}
+@-webkit-keyframes Logo {
+  from {
+    transform: rotate(-20deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}
+@keyframes Logo {
+  from {
+    transform: rotate(-20deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .headerLogo {
+    width: 10rem;
+  }
+}
+main section h2 {
+  color: #214273;
+}
+main section div:hover {
+  opacity: 0.8;
+}
+main section div a img {
+  width: 320px;
+  height: 210px;
+}
+
+footer {
+  margin-top: 8rem;
+  padding: 1rem;
+  background-image: linear-gradient(rgb(134, 168, 232), rgb(102, 73, 209));
+}/*# sourceMappingURL=styles.css.map */
