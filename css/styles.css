@@ -1,6 +1,7 @@
 header {
-  background-image: url("../imagenes/imagenes/IndexPrincipal.jpg");
+  background-image: url("https://i.pinimg.com/originals/b9/a2/b6/b9a2b64bd019e89c4dc9704e08884d55.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
 }
 header nav div div ul li:hover {
   -webkit-animation-name: nav;
