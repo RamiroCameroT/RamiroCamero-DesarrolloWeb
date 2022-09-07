@@ -1,5 +1,5 @@
 header {
-  background-image: url("../../imagenes/imagenes/IndexPrincipal.jpg");
+  background-image: url("../imagenes/imagenes/IndexPrincipal.jpg");
   background-size: cover;
 }
 header nav div div ul li:hover {
