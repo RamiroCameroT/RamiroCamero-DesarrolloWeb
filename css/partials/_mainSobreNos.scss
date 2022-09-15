@@ -1,8 +1,7 @@
 .mainSobreNos{
     section{
         h2{
-            color: $colorTitulos;
-            margin: 5rem auto;
+            @extend %margenTitulos;
         }
         p{
             color: $colorTitulos;

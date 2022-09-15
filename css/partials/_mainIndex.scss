@@ -10,8 +10,8 @@
             }
             a{
                 img{
-                    width: 320px;
-                    height: 210px;
+                    width: map-get( $width, primario);
+                    height: map-get( $height, primario);
                 }
                 h3{
                     background-color: $colorTitulos;

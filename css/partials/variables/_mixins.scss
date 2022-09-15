@@ -1,0 +1,5 @@
+@mixin parrafos ($color, $width, $margin){
+    color: $color;
+    width: $width;
+    margin: $margin;
+}

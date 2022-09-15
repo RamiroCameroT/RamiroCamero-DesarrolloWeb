@@ -11,9 +11,7 @@
                     margin-top: 3rem;
                 }
                 p{
-                    color: $colorTitulos;
-                    width: 80%;
-                    margin: 3rem auto;
+                    @include parrafos ($color: $colorTitulos, $width: 80%, $margin: 3rem auto)
                 }
 
             }
