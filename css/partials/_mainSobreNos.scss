@@ -1,11 +1,14 @@
 .mainSobreNos{
+    @extend %background;
     section{
         h2{
             @extend %margenTitulos;
+            text-shadow: 2px 2px 4px #6891cf;
         }
         p{
             color: $colorTitulos;
-            margin: .6rem auto;
+            margin: 0 auto 1rem auto;
+            text-align: center;
             
         }
         .sobreNosFlex{

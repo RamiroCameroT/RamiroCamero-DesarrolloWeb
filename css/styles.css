@@ -3,6 +3,11 @@
   margin: 5rem auto;
 }
 
+.mainContacto, .mainSobreNos, .mainProyectos, .mainAlquiler, .mainIndex {
+  background-image: linear-gradient(#ffffff, #e6eaf6, rgb(255, 255, 255));
+  padding-bottom: 10rem;
+}
+
 header {
   background-image: url("https://i.pinimg.com/originals/b9/a2/b6/b9a2b64bd019e89c4dc9704e08884d55.jpg");
   background-size: cover;
@@ -66,6 +71,7 @@ header nav div a img:hover {
 .mainIndex section h2 {
   color: #214273;
   margin: 8rem 0 4rem 0;
+  text-shadow: 2px 2px 4px #6891cf;
 }
 .mainIndex section div:hover {
   opacity: 0.8;
@@ -80,7 +86,6 @@ header nav div a img:hover {
 }
 
 footer {
-  margin-top: 8rem;
   padding: 1rem;
   background-image: linear-gradient(rgb(134, 168, 232), rgb(102, 73, 209));
 }
@@ -88,6 +93,7 @@ footer {
 .mainAlquiler section h2 {
   color: #214273;
   margin: 8rem 0 4rem 0;
+  text-shadow: 2px 2px 4px #6891cf;
 }
 .mainAlquiler div:hover {
   transform: scale(1.2, 1.2);
@@ -97,10 +103,11 @@ footer {
 .mainProyectos section h2 {
   color: #214273;
   margin: 8rem 0 4rem 0;
+  text-shadow: 2px 2px 4px #6891cf;
 }
 .mainProyectos section div div h3 {
   color: #214273;
-  margin-top: 3rem;
+  margin-top: 5rem;
 }
 .mainProyectos section div div p {
   color: #214273;
@@ -108,9 +115,13 @@ footer {
   margin: 3rem auto;
 }
 
+.mainSobreNos section h2 {
+  text-shadow: 2px 2px 4px #6891cf;
+}
 .mainSobreNos section p {
   color: #214273;
-  margin: 0.6rem auto;
+  margin: 0 auto 1rem auto;
+  text-align: center;
 }
 .mainSobreNos section .sobreNosFlex div {
   width: 20rem;
@@ -123,6 +134,9 @@ footer {
   color: #214273;
 }
 
+.mainContacto section h2 {
+  text-shadow: 2px 2px 4px #6891cf;
+}
 .mainContacto section div div {
   width: 75vw;
 }

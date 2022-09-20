@@ -1,7 +1,9 @@
 .mainContacto{
+    @extend %background;
     section{
         h2{
             @extend %margenTitulos;
+            text-shadow: 2px 2px 4px #6891cf;
         }
         div{
             div{

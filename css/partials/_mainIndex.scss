@@ -1,8 +1,10 @@
 .mainIndex{
+    @extend %background;
     section{
         h2{
             color:$colorTitulos;
             margin: 8rem 0 4rem 0;
+            text-shadow: 2px 2px 4px #6891cf;
         }
         div{
             &:hover{
