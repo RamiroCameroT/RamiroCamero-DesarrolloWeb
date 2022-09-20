@@ -4,7 +4,7 @@
 }
 
 .mainContacto, .mainSobreNos, .mainProyectos, .mainAlquiler, .mainIndex {
-  background-image: linear-gradient(#ffffff, #e6eaf6, rgb(255, 255, 255));
+  background-image: linear-gradient(#ffffff, #bcc7e8, rgb(255, 255, 255));
   padding-bottom: 10rem;
 }
 
@@ -95,9 +95,15 @@ footer {
   margin: 8rem 0 4rem 0;
   text-shadow: 2px 2px 4px #6891cf;
 }
+.mainAlquiler div {
+  box-shadow: 5px 5px 10px rgb(152, 151, 162);
+}
 .mainAlquiler div:hover {
   transform: scale(1.2, 1.2);
   cursor: pointer;
+}
+.mainAlquiler div:hover div:hover {
+  transform: none;
 }
 
 .mainProyectos section h2 {

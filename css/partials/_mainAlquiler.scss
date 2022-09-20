@@ -8,9 +8,15 @@
         }
     }
     div{
+        box-shadow: 5px 5px 10px rgb(152, 151, 162);
         &:hover{
             transform: scale(1.2,1.2);
             cursor: pointer;
+        div{
+            &:hover{
+                transform: none;
+            }
+        }
         }
     }
 }
