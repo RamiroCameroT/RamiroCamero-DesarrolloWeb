@@ -13,7 +13,7 @@
                     margin-top: 5rem;
                 }
                 p{
-                    @include parrafos ($color: $colorTitulos, $width: 80%, $margin: 3rem auto)
+                    @include parrafos ($color: $colorTitulos, $width: 70%, $margin: 3rem auto)
                 }
 
             }
