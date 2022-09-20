@@ -3,6 +3,10 @@
   margin: 5rem auto;
 }
 
+body {
+  font-family: "Dangrek", cursive;
+}
+
 .mainContacto, .mainSobreNos, .mainProyectos, .mainAlquiler, .mainIndex {
   background-image: linear-gradient(#ffffff, #bcc7e8, rgb(255, 255, 255));
   padding-bottom: 10rem;

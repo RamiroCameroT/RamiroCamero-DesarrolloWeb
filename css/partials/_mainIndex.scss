@@ -1,3 +1,7 @@
+body{
+    @extend %font;
+}
+
 .mainIndex{
     @extend %background;
     section{
