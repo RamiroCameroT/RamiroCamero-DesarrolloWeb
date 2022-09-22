@@ -41,12 +41,13 @@ body{
     justify-content: center;
     align-items: center;
     margin-top: 10rem;
-    margin-bottom: 4rem;
+    
     
 }
 .indexTitulos h1{
     margin: 2rem;
     color: rgb(186, 210, 242);
+    text-align: center;
 }
 
 .indexTitulos button{
@@ -58,4 +59,10 @@ body{
     border: none;
     border-radius: 10%;
     color: rgb(186, 210, 242);   
+}
+
+@media screen and(max-width:320px) {
+   .indexTitulos{
+    margin-top: 0rem;
+   }
 }

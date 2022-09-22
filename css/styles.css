@@ -30,6 +30,8 @@ header nav div div ul li:hover {
   }
   to {
     transform: translateY(-8px);
+    -webkit-text-decoration: underline rgb(229, 228, 241) solid 2px;
+            text-decoration: underline rgb(229, 228, 241) solid 2px;
   }
 }
 @keyframes nav {
@@ -38,6 +40,8 @@ header nav div div ul li:hover {
   }
   to {
     transform: translateY(-8px);
+    -webkit-text-decoration: underline rgb(229, 228, 241) solid 2px;
+            text-decoration: underline rgb(229, 228, 241) solid 2px;
   }
 }
 header nav div a img {
@@ -103,12 +107,12 @@ header nav div a img:hover {
   justify-content: center;
   align-items: center;
   margin-top: 10rem;
-  margin-bottom: 4rem;
 }
 
 .indexTitulos h1 {
   margin: 2rem;
   color: rgb(186, 210, 242);
+  text-align: center;
 }
 
 .indexTitulos button {
@@ -122,6 +126,11 @@ header nav div a img:hover {
   color: rgb(186, 210, 242);
 }
 
+@media screen and (max-width: 320px) {
+  .indexTitulos {
+    margin-top: 0rem;
+  }
+}
 footer {
   padding: 1rem;
   background-image: linear-gradient(rgb(134, 168, 232), rgb(102, 73, 209));
