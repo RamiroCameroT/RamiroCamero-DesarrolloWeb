@@ -91,6 +91,7 @@ header nav div a img:hover {
 }
 .mainIndex section div:hover {
   opacity: 0.8;
+  cursor: pointer;
 }
 .mainIndex section div a img {
   width: 320px;

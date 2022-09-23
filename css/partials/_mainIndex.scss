@@ -12,7 +12,8 @@ body{
         }
         div{
             &:hover{
-                opacity: 0.8; 
+                opacity: 0.8;
+                cursor: pointer; 
             }
             a{
                 img{
