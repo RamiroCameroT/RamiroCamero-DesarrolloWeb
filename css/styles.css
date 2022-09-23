@@ -17,6 +17,9 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
 }
+header nav div div ul li {
+  margin: 1.6rem;
+}
 header nav div div ul li:hover {
   -webkit-animation-name: nav;
           animation-name: nav;
@@ -74,6 +77,11 @@ header nav div a img:hover {
 @media screen and (min-width: 1200px) {
   .headerLogo {
     width: 10rem;
+  }
+}
+@media screen and (max-width: 330px) {
+  header nav div div ul li {
+    margin: 0.7rem;
   }
 }
 .mainIndex section h2 {
