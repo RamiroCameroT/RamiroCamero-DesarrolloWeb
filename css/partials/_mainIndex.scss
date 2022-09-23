@@ -7,7 +7,7 @@ body{
     section{
         h2{
             color:$colorTitulos;
-            margin: 8rem 0 4rem 0;
+            margin: 7rem 0 4rem 0;
             text-shadow: 2px 2px 4px #6891cf;
         }
         div{
@@ -25,6 +25,28 @@ body{
                 }
             }
         } 
+    }
+}
+
+.serviciosIndex{
+    margin: 0 0 3rem 0;
+}
+
+.indexComents{
+    margin-top: 4rem;
+}
+.sobreNosFlex{
+    div{
+        width: 20rem;
+        margin: 2rem 3rem;
+        
+        h3{
+            color: $colorTitulos;  
+        }
+        p{
+            color: $colorTitulos;  
+            
+        }
     }
 }
 
@@ -59,6 +81,12 @@ body{
     border: none;
     border-radius: 10%;
     color: rgb(186, 210, 242);   
+}
+
+.propiedadesDest{
+    background: linear-gradient(90deg, rgb(223, 222, 237) 0%, rgba(119, 119, 205, 0.936) 50%, rgb(67, 90, 143) 88%); 
+    text-align: center;
+    
 }
 
 @media screen and(max-width:320px) {

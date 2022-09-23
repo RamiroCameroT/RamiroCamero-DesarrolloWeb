@@ -86,7 +86,7 @@ header nav div a img:hover {
 }
 .mainIndex section h2 {
   color: #214273;
-  margin: 8rem 0 4rem 0;
+  margin: 7rem 0 4rem 0;
   text-shadow: 2px 2px 4px #6891cf;
 }
 .mainIndex section div:hover {
@@ -99,6 +99,25 @@ header nav div a img:hover {
 .mainIndex section div a h3 {
   background-color: #214273;
   color: rgb(215, 227, 233);
+}
+
+.serviciosIndex {
+  margin: 0 0 3rem 0;
+}
+
+.indexComents {
+  margin-top: 4rem;
+}
+
+.sobreNosFlex div {
+  width: 20rem;
+  margin: 2rem 3rem;
+}
+.sobreNosFlex div h3 {
+  color: #214273;
+}
+.sobreNosFlex div p {
+  color: #214273;
 }
 
 .headerIndexPrinc {
@@ -132,6 +151,11 @@ header nav div a img:hover {
   border: none;
   border-radius: 10%;
   color: rgb(186, 210, 242);
+}
+
+.propiedadesDest {
+  background: linear-gradient(90deg, rgb(223, 222, 237) 0%, rgba(119, 119, 205, 0.936) 50%, rgb(67, 90, 143) 88%);
+  text-align: center;
 }
 
 @media screen and (max-width: 320px) {
