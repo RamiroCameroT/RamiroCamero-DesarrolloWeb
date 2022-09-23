@@ -79,11 +79,33 @@
                 <textarea class="form-control text-center" id="exampleFormControlTextarea1" rows="4" placeholder="Introduzca su consulta"></textarea>
               </div>
             </div>
-            <div class="gap-2 d-block text-center">
-              <button class="btn btn-primary m-2" type="button">Enviar</button>
+           <span class="d-flex justify-content-center">
+              <!-- Button trigger modal -->
+              <button type="button" class="btn btn-primary m-2" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                Enviar
+              </button>
+
+              <!-- Modal -->
+              <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="staticBackdropLabel">Gracias por contactarnos</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      A la brevedad nos pondremos en contacto
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
               <button class="btn btn-primary m-2" type="button">Reset</button>
-            </div>
-          </section>
+           </span>
+            
+      </section>
           
           <section class="container  text-center row mx-auto contacto">
             <div class="col-12 col-lg-4 my-lg-4 my-3">
