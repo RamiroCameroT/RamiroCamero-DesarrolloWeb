@@ -111,8 +111,8 @@ header nav div a img:hover {
 }
 
 .sobreNosFlex div {
-  width: 20rem;
-  margin: 2rem 3rem;
+  width: 15rem;
+  margin: 1rem 3rem;
 }
 .sobreNosFlex div h3 {
   color: #214273;
@@ -208,16 +208,6 @@ footer {
   margin: 0 auto 1rem auto;
   text-align: center;
   width: 80%;
-}
-.mainSobreNos section .sobreNosFlex div {
-  width: 20rem;
-  margin-top: 1rem;
-}
-.mainSobreNos section .sobreNosFlex div h3 {
-  color: #214273;
-}
-.mainSobreNos section .sobreNosFlex div p {
-  color: #214273;
 }
 
 .mainContacto section h2 {
